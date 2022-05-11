@@ -1,1 +1,2 @@
-print("Hello World")
+def add():
+  return 1 + 1

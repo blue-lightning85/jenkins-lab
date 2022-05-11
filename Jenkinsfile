@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        sh 'python3 unit-test.py'
+      }
+    }
+
   }
 }
